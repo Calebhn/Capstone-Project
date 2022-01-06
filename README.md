@@ -83,7 +83,9 @@ All files are in the data folder inside this git
  ## Statistical analysis, Model generation & validation and creation of a Recommendation engine
 
 All the process concerning the analysis and creation of the recommendation engine is defined in the “Starbucks_Offers_Analysis.ipynb” jupyter notebook provided in this git. 
-### Recomendation engine
-Different type of recomendations have been used for this pproject. 
-* Collaborative filtering recomendation is used to find the best offers we can give to each specific customer considering how other customers reacted earlier to this offers. 
-* Content based recommentation has been used to reommend offers to new users. 
+
+### Recommendation engine
+Different type of recommendations has been used for this project. 
+* Collaborative filtering recommendation is used to find the best offers we can give to each specific customer considering how other customers reacted earlier to this offers. 
+* Content based recommendation has been used to recommend offers to new users.
+
