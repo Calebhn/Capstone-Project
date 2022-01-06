@@ -80,11 +80,10 @@ All files are in the data folder inside this git
 * portfolio_clean.json
 * transcript_profile_merge.json
  
- ## Statistical analysis, Model generation & validation and creation of a Recommendation engine
+## Analysis process
 
 All the process concerning the analysis and creation of the recommendation engine is defined in the “Starbucks_Offers_Analysis.ipynb” jupyter notebook provided in this git. 
 
-### Recommendation engine
 Different type of recommendations has been used for this project. 
 * Collaborative filtering recommendation is used to find the best offers we can give to each specific customer considering how other customers reacted earlier to this offers. 
 * Content based recommendation has been used to recommend offers to new users.
@@ -96,7 +95,14 @@ Sample Information:
 •	Mean age: 54 years
 •	Mean days of the customer being members in the application: 1780 days 
 A relatively high standard deviation in the income of the customers is being observed. In the graph bellow we can observe that there is a higher frequency of the salaries bellow the mean. 
+
 ![alt text](https://github.com/Calebhn/Capstone-Project/blob/main/img/Distribution_of_Customer_Income.png)
+
+## Recommendation engine (Model Validation and Results)
+Matrix factorization has been used for the recommendation engine. A simplified FunkSVD method has been used to predict how the customers will react to the different offers. 
+Customer Offer Matrix was created having as columns the offer id, as rows the customer id and as values. 0 if the offer has been sent to a customer but this offer did not generate revenue and 1 if the offer sent did generated revenue. NaN values appear when the offer has not been sent to the customers. 
+The FunkSVD process helped us find out how the customers will react to the offers even if this customer did not had access to each offer. 
+The model accuracy was measure by calculating the cumulative square mean error in the hole matrix. By reducing this error the accuracy the model has is of around 0.3. 
 
 Customers between 50 and 70 years are the ones that appear with more frequency in the sample data set
 
@@ -109,3 +115,6 @@ The younger customers spend more than older ones.
 The mean transaction amount is higher for older customers. 
 
 ![alt text](https://github.com/Calebhn/Capstone-Project/blob/main/img/Mean_Amounts_spent_by_age.png)
+
+## Recommendation engine (Model Validation and Resluts)
+
