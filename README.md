@@ -119,8 +119,16 @@ The mean transaction amount is higher for older customers.
 ## Recommendation engine (Model Validation and Resluts)
 
 Matrix factorization has been used for the recommendation engine. A simplified FunkSVD method has been used to predict how the customers will react to the different offers. 
+
 Customer Offer Matrix was created having as columns the offer id, as rows the customer id and as values. 0 if the offer has been sent to a customer but this offer did not generate revenue and 1 if the offer sent did generated revenue. NaN values appear when the offer has not been sent to the customers. 
+
 The FunkSVD process helped us find out how the customers will react to the offers even if this customer did not had access to each offer. 
-The model accuracy was measure by calculating the cumulative square mean error in the hole matrix. By reducing this error the accuracy the model has is of around 0.3. 
+
+The model was crated measuring the cumulative square mean error in the whole matrix. By reducing this error, the accuracy of the model has is of around 0.3. This low accuracy could be cause by the high quantity of NaN values in the matrix but is enough to find tendencies in the test sample. 
+
+![alt text](https://github.com/Calebhn/Capstone-Project/blob/main/img/validation.png)
+
+
+
 
 
