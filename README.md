@@ -89,8 +89,6 @@ Different type of recommendations has been used for this project.
 * Collaborative filtering recommendation is used to find the best offers we can give to each specific customer considering how other customers reacted earlier to this offers. 
 * Content based recommendation has been used to recommend offers to new users.
 
-![alt text](https://github.com/Calebhn/Airline_delays1998-2008/blob/main/Images/r2_vs_features.png)
-
 ## Data Exploration
 Statistical data has been extracted as first stem to get to know the data we are working with. 
 Sample Information:
@@ -101,9 +99,11 @@ A relatively high standard deviation in the income of the customers is being obs
 ![alt text](https://github.com/Calebhn/Capstone-Project/blob/main/img/Distribution_of_Customer_Income.png)
 
 Customers between 50 and 70 years are the ones that appear with more frequency in the sample data set
+
 ![alt text](https://github.com/Calebhn/Capstone-Project/blob/main/img/Distribution_of_Customer_Age.png)
 
 The younger customers spend more than older ones. 
+
 ![alt text](https://github.com/Calebhn/Capstone-Project/blob/main/img/Distribution_of_amounts_spent_by_customer.png)
 
 The mean transaction amount is higher for older customers. 
