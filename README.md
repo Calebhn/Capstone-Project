@@ -133,6 +133,6 @@ As an output, the recomendation engine gives a list of the most recommended offe
 ![alt text](https://github.com/Calebhn/Capstone-Project/blob/main/img/reommendations.png)
 
 
-If the customer isa new one, the recommendation is done using best offers for the whole sample.
+If the customer is a new one, the recommendation is done using best offers for the whole sample.
 
 ![alt text](https://github.com/Calebhn/Capstone-Project/blob/main/img/sale_revenew_for_different_offers.png)
