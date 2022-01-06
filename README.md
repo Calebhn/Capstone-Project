@@ -130,7 +130,7 @@ The model was crated measuring the cumulative square mean error in the whole mat
 
 As an output, the recomendation engine gives a list of the most recommended offers for each individual customer.
 
-![alt text](https://github.com/Calebhn/Capstone-Project/blob/main/img/recommendation.png)
+![alt text](https://github.com/Calebhn/Capstone-Project/blob/main/img/reommendations.png)
 
 
 
