@@ -1,5 +1,15 @@
 # Starbucks Capstone-Project
- 
+## Requirements
+### Libraries
+* pandas
+* numpy
+* pickle
+* matplotlib.pyplot
+* json
+
+### Programs
+* Have Jupyter Notbook reader
+
 ## Introduction
 
 This data set contains simulated data that mimics customer behavior on the Starbucks rewards mobile app. Once every few days, Starbucks sends out an offer to users of the mobile app. An offer can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). Some users might not receive any offer during certain weeks. 
@@ -52,7 +62,7 @@ Here is the schema and explanation of each variable in the files:
 * value - (dict of strings) - either an offer id or transaction amount depending on the record
 
 ### Cleaning Process
-
+File: ETL Pilepline.ipynb
 The .json files given as input for this project have been cleaned and transformed so that the extraction information was easier. 
 
 ETL Pipeline Jupyter Notebook contains all the process to extract and transform the data sets. Some of the cleaning and transformation done to the data has been:
@@ -62,4 +72,18 @@ ETL Pipeline Jupyter Notebook contains all the process to extract and transform 
 * Creating dummy variables for the event column
 * Map customer id to a numeric form (integers going from 1 to 14824). This helped identify them easily when working with data.
 * Same mapping was done with the offer id (going from 0 to 9)
+* Suspicious customer profiles were deleted from the data sets. Customers with no gender, no income and age of 118 years where deleted.
+
+#### Files created
+All files are in the data folder inside this git
+* new_profile.json
+* portfolio_clean.json
+* transcript_profile_merge.json
  
+ ## Statistical analysis, Model generation & validation and creation of a Recommendation engine
+
+All the process concerning the analysis and creation of the recommendation engine is defined in the “Starbucks_Offers_Analysis.ipynb” jupyter notebook provided in this git. 
+### Recomendation engine
+Different type of recomendations have been used for this pproject. 
+* Collaborative filtering recomendation is used to find the best offers we can give to each specific customer considering how other customers reacted earlier to this offers. 
+* Content based recommentation has been used to reommend offers to new users. 
