@@ -138,4 +138,4 @@ If the customer is a new one, the recommendation is done using best offers for t
 ![alt text](https://github.com/Calebhn/Capstone-Project/blob/main/img/sale_revenew_for_different_offers.png)
 
 Link to blog explainig process and results:
-
+https://medium.com/@caleb1996hn/are-you-recommending-the-best-to-your-clients-starbucks-example-297b2065aeed
