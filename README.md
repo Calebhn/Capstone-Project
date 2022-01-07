@@ -108,7 +108,7 @@ Customers between 50 and 70 years are the ones that appear with more frequency i
 
 ![alt text](https://github.com/Calebhn/Capstone-Project/blob/main/img/Distribution_of_Customer_Age.png)
 
-The younger customers spend more than older ones. 
+Smaller transactions are more frequent in the data set.
 
 ![alt text](https://github.com/Calebhn/Capstone-Project/blob/main/img/Distribution_of_amounts_spent_by_customer.png)
 
